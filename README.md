@@ -1,20 +1,20 @@
 # kbot
-
-A Telegram bot for controlling traffic light signals using GPIO pins on a Raspberry Pi.
+Adapted app version
+<!-- A Telegram bot for controlling traffic light signals using GPIO pins on a Raspberry Pi. -->
 
 ## Features
 
-- Control traffic light signals (red, amber, green) through Telegram commands
+<!-- - Control traffic light signals (red, amber, green) through Telegram commands
 - Toggle individual lights on/off
 - Simple and intuitive command interface
-- GPIO pin control for Raspberry Pi
+- GPIO pin control for Raspberry Pi -->
 - Cross-platform support (Linux, Darwin, Windows)
 - Multi-architecture support (amd64, arm64)
 - Docker containerization support
 
 ## Prerequisites
 
-- Raspberry Pi with GPIO access
+<!-- - Raspberry Pi with GPIO access -->
 - Go 1.16 or later
 - Docker (optional, for containerization)
 - Telegram Bot Token (set as TELE_TOKEN environment variable)
@@ -92,13 +92,13 @@ Start the bot:
 - `/s amber` - Toggle amber light
 - `/s green` - Toggle green light
 - `hello` - Get a greeting from the bot
-
+<!-- 
 ### GPIO Pin Configuration
 
 The bot uses the following GPIO pins by default:
 - Red light: GPIO 12
 - Amber light: GPIO 27
-- Green light: GPIO 22
+- Green light: GPIO 22 -->
 
 ## Development
 
@@ -120,3 +120,6 @@ The application version is automatically generated during build using:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Bot URL:
+https://t.me/LBaidakLocalTestBot
